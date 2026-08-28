@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const signupForm = document.getElementById("signup-form");
   const messageDiv = document.getElementById("message");
 
-  // Function to fetch activities from API
+  // Function to fetch activities from API _tigger_mona_to_check_work 
   async function fetchActivities() {
     try {
       const response = await fetch("/activities");
